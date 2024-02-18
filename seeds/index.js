@@ -21,7 +21,7 @@ const seedDB = async () => {
     const camp = new Campground({
       location: `${cities[random1000].city}, ${cities[random1000].state}`,
       title: `${sample(descriptors)}, ${sample(places)}`,
-      image: 'https://unsplash.com/photos/a-person-in-a-field-with-a-large-umbrella-I0oihJbNSIc',
+      image: 'https://images.unsplash.com/photo-1475518845976-0fd87b7e4e5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHw0ODQzNTF8fHx8fHx8MTcwNDc0NjYwNw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080',
       description: "Beautiful Campground Might Be Haunted",
       price: 39.99
     });
